@@ -1,0 +1,21 @@
+# すべてのファイルを削除するかどうか
+allClear: true
+# 親画面のダウンロードを行うかどうか
+requiredParentsDownload: true
+# 施設画面のダウンロードを行うかどうか
+requiredKindersDownload: false
+# 過去出力済も含めて出力するかどうか
+requiredAllOutput: true
+# ダウンロード対象の親画面URL
+targetUrls:
+  - "https://www.saitama-kosodate.jp/map/spindex.php?action=search&area_7=1&area_8=1&area_9=1&shisetsu_class_1=1&keyword=#result"
+# 親画面の全ファイル管理ディレクトリ
+allParentsDir: "resources/htmls/parents/all"
+# 親画面の今回分ファイル管理ディレクトリ
+currParentsDir: "resources/htmls/parents/curr"
+# 施設画面の全ファイル管理ディレクトリ
+allKindersDir: "resources/htmls/kinders/all"
+# 施設画面の全ファイル管理ディレクトリ
+currKindersDir: "resources/htmls/kinders/curr"
+# URLのベース
+baseUrl: "https://www.saitama-kosodate.jp/map"

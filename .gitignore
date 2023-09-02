@@ -1,3 +1,7 @@
+# custom
+resources/csvs/*
+resources/htmls/*
+
 # Logs
 logs
 *.log
